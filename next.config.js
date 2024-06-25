@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  ppr: 'incremental',
+};
 
 module.exports = nextConfig;
